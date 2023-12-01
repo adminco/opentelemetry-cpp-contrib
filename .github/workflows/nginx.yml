@@ -11,6 +11,7 @@ on:
     paths:
       - 'instrumentation/nginx/**'
       - '.github/workflows/nginx.yml'
+  workflow_dispatch:
 
 jobs:
   nginx-build-test:
